@@ -48,14 +48,14 @@ package 包名称
 ```go
 // User defines user login info
 type User struct {
-UserName string // user's name
-Password string // user's password
+    UserName string // user's name
+    Password string // user's password
 }
 
 // IUser defines user function
 type IUser interface {
-Login()  // user login into the system
-Logout() // user logout the system
+    Login()  // user login into the system
+    Logout() // user logout the system
 }
 ```
 
@@ -81,7 +81,7 @@ Logout() // user logout the system
 ```go
 // This is my wife's birthday
 if birthday == 1118 {
-...
+    ...
 }
 ```
 
