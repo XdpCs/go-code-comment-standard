@@ -33,10 +33,10 @@ package 包名称
 ```go
 package 包名称
 
-// @Title  文件名称
+// @Title        文件名称
 // @Description  文件描述
-// @Author  作者 日期 时间
-// @Update  更新作者 日期 时间
+// @Author       作者 日期 时间
+// @Update       更新作者 日期 时间
 ```
 
 ## 结构体注释和接口注释
@@ -67,11 +67,11 @@ type IUser interface {
 
 ```go
 // 函数或方法名称
-// @Title    函数或方法名称
+// @Title         函数或方法名称
 // @Description   函数或方法描述
-// @Author      作者 日期 时间
-// @Param     输入参数名 参数类型  "说明"
-// @Return    返回参数名 参数类型  "说明"
+// @Author        作者 日期 时间
+// @Param         输入参数名 参数类型  "说明"
+// @Return        返回参数名 参数类型  "说明"
 ```
 
 ## 代码逻辑注释
